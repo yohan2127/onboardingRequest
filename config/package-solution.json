@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "onboardingrequest-client-side-solution",
+    "id": "3b91332b-85d6-436c-b27e-9b28b9e160ed",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Onboardingrequest description"
+      },
+      "longDescription": {
+        "default": "Onboardingrequest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "onboardingrequest Feature",
+        "description": "The feature that activates elements of the onboardingrequest solution.",
+        "id": "4e9d63bf-07dc-467d-bb6b-b3abffe2b367",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/onboardingrequest.sppkg"
+  }
+}
